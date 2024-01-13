@@ -1,5 +1,54 @@
 
-# :bomb: TERMINAL BASED PYTHON MINESWEEPER
+# :bomb: TERMINAL BASED PYTHON MINESWEEPER :bomb:
 
-Random map generation and allowing the user to change the difficulty of the game by modifying the parameters.
 
+### :rocket: Welcome to Terminal Minesweeper!
+
+This is a terminal-based Python implementation of the classic game Minesweeper, allowing the user to change the difficulty of the game by modifying the parameters.
+
+
+## 🔎 Overview
+
+This Minesweeper game provides a simple yet engaging terminal-based experience. Uncover the mines and clear the minefield to win the game. Customize the difficulty by adjusting the size of the grid and the number of mines.
+
+## Features
+
+- **Random Map Generation:** Creates a new and unique map every game.
+- **Customizable Grid:** Choose the size of the Minesweeper grid (1 to 30).
+- **Adjustable Difficulty:** Set the number of mines (1 to 25% of the available positions).
+- **Interactive Gameplay:** Uncover cells, avoid mines, and win the game.
+
+## Getting Started
+
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/KValentiin/minesweeper.git
+   cd minesweeper
+
+
+Run the Minesweeper game.
+
+```bash
+python minesweeper.py
+
+Follow the on-screen instructions to start a new game, uncover cells, and enjoy the classic Minesweeper experience.
+
+Gameplay
+Use row and column numbers to uncover cells (e.g., 1 2).
+Enter done to finish the game and check if you've cleared the minefield.
+Enter menu to return to the main menu.
+Enter exit to exit the game.
+Screenshots
+Include screenshots of your game here to showcase the gameplay and the terminal interface.
+
+Contributing
+Contributions are welcome! Please follow the guidelines in CONTRIBUTING.md.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+Have questions or suggestions? Feel free to reach out:
+
+Email: your.email@example.com
+Twitter: @yourtwitter
