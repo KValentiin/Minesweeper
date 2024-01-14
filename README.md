@@ -6,10 +6,7 @@
 
 This is a terminal-based Python implementation of the classic game Minesweeper, allowing the user to change the difficulty of the game by modifying the parameters.
 
-
-## 🔎 Overview
-
-This Minesweeper game provides a simple yet engaging terminal-based experience. Uncover the mines and clear the minefield to win the game. Customize the difficulty by adjusting the size of the grid and the number of mines.
+The game provides a simple yet engaging terminal-based experience. Uncover the mines and clear the minefield to win the game. Customize the difficulty by adjusting the size of the grid and the number of mines.
 
 ## :star: Features
 
@@ -52,7 +49,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## :fax: Contact
 Have questions or suggestions? Feel free to reach out:
 
-[Email](kvalentin95@gmail.com)
+[Email](kvalentin95@gmail.com)  
 [LinkedIn](https://www.linkedin.com/in/valentin-kalanyos-00a245199/)
 
 
