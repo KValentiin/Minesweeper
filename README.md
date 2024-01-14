@@ -25,7 +25,13 @@ The game provides a simple yet engaging terminal-based experience. Uncover the m
    cd minesweeper
     ```
 
-2. Run the Minesweeper game.
+2. Install requirements.
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. Run the Minesweeper game.
 
     ```bash
     python minesweeper.py
