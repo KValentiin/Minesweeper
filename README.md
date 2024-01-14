@@ -44,7 +44,7 @@ Enter exit to exit the game.
 
 ## :framed_picture: Screenshots
 
-![Screenshot](Minesweeper Screenshot 1.png) ![Screenshot](Minesweeper Screenshot 2.png)
+![Screenshot 1](screenshot1.png) ![Screenshot 2](screenshot2.png)
 
 
 ## 	:page_facing_up: License
