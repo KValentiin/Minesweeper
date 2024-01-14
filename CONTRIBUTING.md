@@ -1,4 +1,4 @@
-# Contributing to Terminal Minesweeper
+# Contributing to Terminal Minesweeper 💣
 
 Welcome to Terminal Minesweeper! We're glad you're interested in contributing.
 
