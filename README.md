@@ -44,6 +44,8 @@ Enter exit to exit the game.
 
 ## :framed_picture: Screenshots
 
+<img src="screenshot1.png" alt="Description" width="200"/>
+<img src="screenshot2.png" alt="Description" width="200"/>
 ![Screenshot 1](screenshot1.png) ![Screenshot 2](screenshot2.png)
 
 
