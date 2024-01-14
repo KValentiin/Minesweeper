@@ -61,7 +61,7 @@ Enter exit to exit the game.
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-## :fax: Contact
+## 🌐 Contact
 Have questions or suggestions? Feel free to reach out:
 
 [Email](kvalentin95@gmail.com)  
