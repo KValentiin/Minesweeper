@@ -44,8 +44,10 @@ Enter exit to exit the game.
 
 ## :framed_picture: Screenshots
 
-<img src="screenshot1.png" alt="Description" width="300"/>
-<img src="screenshot2.png" alt="Description" width="300"/>
+<p float="left">
+  <img src="screenshot1.png" alt="Description" width="300"/>
+  <img src="screenshot2.png" alt="Description" width="300"/>
+</p>
 
 
 ## 	:page_facing_up: License
