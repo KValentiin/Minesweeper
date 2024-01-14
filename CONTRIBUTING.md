@@ -18,4 +18,4 @@ Please follow the existing code style and guidelines in the project. Use clear a
 
 If you find any bugs or issues, please open an issue on the GitHub repository. Include as much detail as possible about the problem and steps to reproduce it.
 
-Thank you for contributing to Terminal Minesweeper! 🎉
+Thank you for contributing to Terminal Minesweeper! 💣
