@@ -115,7 +115,7 @@ def play_game():
             print()
             print(alert + "Invalid input. Please enter a valid number." + reset_all)
             print()
-
+    
     while True:
         try:
             max_mines = int(size * size * max_mines_fraction)
@@ -131,7 +131,7 @@ def play_game():
             print()
             print(alert + "Invalid input. Please enter a valid number." + reset_all)
             print()
-
+    
     # Now you have valid inputs for size and num_mines
     print()
     print("Size: " + str(size) + ", Number of Mines: " + str(num_mines))

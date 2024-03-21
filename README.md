@@ -37,7 +37,7 @@ The game provides a simple yet engaging terminal-based experience. Uncover the m
     python minesweeper.py
     ```
 
-Follow the on-screen instructions to start a new game, uncover cells, and enjoy the classic Minesweeper experience.
+Follow the on-screen instructions to start a new game, uncover cells or mines and enjoy the classic Minesweeper experience.
 
 
 ## :video_game: Gameplay
