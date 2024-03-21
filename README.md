@@ -44,7 +44,8 @@ Follow the on-screen instructions to start a new game, uncover cells, and enjoy 
 
 Use row and column numbers to uncover cells (e.g., 1 2).   
 Enter done to finish the game and check if you've cleared the minefield.    
-Enter menu to return to the main menu.     
+Enter menu to return to the main menu.   
+Enter reveal to reveal all mines.
 Enter exit to exit the game.   
 
 

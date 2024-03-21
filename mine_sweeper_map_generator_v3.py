@@ -6,17 +6,17 @@ allowing the user to change the difficulty of the game by modifying the paramete
 #! ########################           IMPORTS          ########################
 
 
-import random   # generating random numbers, selecting random
+import random   # Generating random numbers, selecting random
 
-import os       # operating system dependent functionality, such as
+import os       # Operating system dependent functionality, such as
 
-import colorama # importing to use colours in print statements
-from colorama import Fore, Back, Style # text, background, and style imports
-from colorama import just_fix_windows_console # fix the console colour issue
+import colorama # Importing to use colours in print statements
+from colorama import Fore, Back, Style # Importing text, background, and style
+from colorama import just_fix_windows_console # Fix the console colour issue
 just_fix_windows_console()
 
 
-# text colours for less clutter and readability
+# Text colours for less clutter and readability
 alert     = Fore.RED     + Back.WHITE   + Style.BRIGHT
 cyan      = Fore.CYAN                   + Style.BRIGHT
 green     = Fore.GREEN                  + Style.BRIGHT
@@ -88,14 +88,6 @@ def print_minesweeper_map(minefield):
     for row in minefield:
         print(' '.join(row))
 
-def reveal_all_mines(minefield, hidden_map):
-    """
-    Reveals all mine positions on the hidden map.
-    """
-    for i in range(len(minefield)):
-        for j in range(len(minefield[0])):
-            if minefield[i][j] == 'M':
-                hidden_map[i][j] = 'M'
 
 def play_game():
     
@@ -153,10 +145,13 @@ def play_game():
     print_hidden_minesweeper_map(hidden_map)
     
     
-# continuously prompt the user for input. The user can enter the row and column
-# of a cell they want to uncover, or they can enter specific commands such as
-# 'menu' to go back to the menu, 'exit' to exit the game, or 'done' to check if
-# they have cleared the minefield.
+    
+    """
+    Continuously prompt the user for input. The user can enter the row and column 
+    of a cell they want to uncover, or they can enter specific commands such as 
+    'menu' to go back to the menu, 'exit' to exit the game, or 'done' to check if 
+    they have cleared the minefield.
+    """
     while True:
         
         print()
@@ -164,19 +159,12 @@ def play_game():
 Enter """ + cyan +  """row """  + yellow + """and """ + magenta + """column""" + white + """ (e.g., """ + cyan + """1 """ + magenta + """2""" + white + """)
       """ + green + """done """ + yellow + """to finish
       """ + white + """menu """ + yellow + """to go back to the menu
-      """ + green + """reveal """ + yellow + """to reveal all mines
       """ + red +   """exit """ + yellow + """to exit game
       """ + reset_all)
         
         if user_input.lower() == 'menu':
             clear_screen()
             return
-        
-        elif user_input.lower() == 'reveal':  # Added condition to reveal all mines
-            reveal_all_mines(minesweeper_map, hidden_map)  # Call the function to reveal mines
-            clear_screen()
-            print_hidden_minesweeper_map(hidden_map)
-            continue  # Continue the game loop without processing other commands
         
         elif user_input.lower() == 'exit':
             exit()
@@ -206,7 +194,7 @@ Enter """ + cyan +  """row """  + yellow + """and """ + magenta + """column""" +
                     print()
                     continue
         
-        # input for the row and column of the cell they want to uncover
+        # Input for the row and column of the cell they want to uncover
         try:
             row, col = map(int, user_input.split())
             if 1 <= row <= size and 1 <= col <= size:
@@ -249,7 +237,7 @@ Enter """ + cyan +  """row """  + yellow + """and """ + magenta + """column""" +
 
 clear_screen()
 
-# it is only executed if the script is run directly, and not if it is imported as a module.
+# It's only executed if the script is run directly, and not if it is imported as a module.
 if __name__ == "__main__":
     
     while True:
