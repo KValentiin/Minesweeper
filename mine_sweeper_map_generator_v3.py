@@ -88,6 +88,14 @@ def print_minesweeper_map(minefield):
     for row in minefield:
         print(' '.join(row))
 
+def reveal_all_mines(minefield, hidden_map):
+    """
+    Reveals all mine positions on the hidden map.
+    """
+    for i in range(len(minefield)):
+        for j in range(len(minefield[0])):
+            if minefield[i][j] == 'M':
+                hidden_map[i][j] = 'M'
 
 def play_game():
     
@@ -156,12 +164,19 @@ def play_game():
 Enter """ + cyan +  """row """  + yellow + """and """ + magenta + """column""" + white + """ (e.g., """ + cyan + """1 """ + magenta + """2""" + white + """)
       """ + green + """done """ + yellow + """to finish
       """ + white + """menu """ + yellow + """to go back to the menu
+      """ + green + """reveal """ + yellow + """to reveal all mines
       """ + red +   """exit """ + yellow + """to exit game
       """ + reset_all)
         
         if user_input.lower() == 'menu':
             clear_screen()
             return
+        
+        elif user_input.lower() == 'reveal':  # Added condition to reveal all mines
+            reveal_all_mines(minesweeper_map, hidden_map)  # Call the function to reveal mines
+            clear_screen()
+            print_hidden_minesweeper_map(hidden_map)
+            continue  # Continue the game loop without processing other commands
         
         elif user_input.lower() == 'exit':
             exit()
